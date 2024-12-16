@@ -1,6 +1,6 @@
 body {
   font-family: Arial;
-  line-height: 1.7;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -15,7 +15,7 @@ header {
   text-align: center;
   background-color: #0000a0;
   max-width: 100%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .header-image {
@@ -30,7 +30,8 @@ b {
 
 h1 {
   color: rgb(102, 102, 102);
-  font-size: 26px;
+  font-size: 22px;
+  text-decoration: none
 }
 
 h1 img {
@@ -38,6 +39,7 @@ h1 img {
   height: 20px;
   vertical-align: middle;
   margin-right: 8px;
+  text-decoration: none
 }
 
 nav ul {
@@ -132,10 +134,9 @@ nav ul.show {
 
 main {
   max-width: 1100px;
-  margin: 20px auto;
+  margin: 0px auto;
   background: white;
   padding: 20px;
-  border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   gap: 10px;
   align-items: flex-start;
@@ -188,7 +189,7 @@ footer {
 }
 .highlight {
   color: red;
-  font-size: 18px;
+ 
 }
 .highlight-box {
   color: black;
@@ -225,7 +226,7 @@ footer {
   align-items: flex-start;
   background: white;
   padding: 20px;
-  border-radius: 8px;
+ 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -249,8 +250,7 @@ footer {
   flex: 5;
   padding: 20px;
   padding-left: 20px;
-  background-color: #fff;
-  border-radius: 5px;
+  background-color: #fff; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -419,5 +419,34 @@ blockquote {
  
  
 }
+
+/* ---------------- */
+
+/* toppage */
+.welcome-title {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-weight: bold;
+  text-decoration: underline;
+  color: #0000A0;
+  font-style: italic !important;
+  text-align: center; 
+}
+
+
+.activities {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activities li {
+  margin: 8px 0;
+  margin-bottom: 20px;
+}
+
+
+
+
 
 /* ---------------- */
