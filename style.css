@@ -81,9 +81,7 @@ nav ul li a:hover {
     background-color: #d5d5d5;
     z-index: 1000;
   }
-  nav {
-    background-color: none;
-  }
+ 
   nav ul li {
     margin: 10px 0;
     text-align: center;
