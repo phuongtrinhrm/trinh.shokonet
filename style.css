@@ -31,7 +31,7 @@ b {
 h1 {
   color: rgb(102, 102, 102);
   font-size: 22px;
-  text-decoration: none
+  text-decoration: none;
 }
 
 h1 img {
@@ -39,7 +39,7 @@ h1 img {
   height: 20px;
   vertical-align: middle;
   margin-right: 8px;
-  text-decoration: none
+  text-decoration: none;
 }
 
 nav ul {
@@ -61,7 +61,6 @@ nav ul li a {
   color: #0000a0;
   font-weight: bold;
   font-size: 20px;
-  
 }
 
 nav ul li a:hover {
@@ -81,7 +80,7 @@ nav ul li a:hover {
     background-color: #d5d5d5;
     z-index: 1000;
   }
- 
+
   nav ul li {
     margin: 10px 0;
     text-align: center;
@@ -112,14 +111,13 @@ nav ul li a:hover {
     height: 40px;
     width: 40px;
   }
-  footer{
+  footer {
     font-size: 12px;
   }
 
-  .left-banner span{
+  .left-banner span {
     font-size: 7px;
   }
-
 }
 .header-image {
   max-width: 80%;
@@ -187,7 +185,6 @@ footer {
 }
 .highlight {
   color: red;
- 
 }
 .highlight-box {
   color: black;
@@ -245,7 +242,7 @@ footer {
   flex: 5;
   padding: 10px;
   padding-left: 10px;
-  background-color: #fff; 
+  background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -277,7 +274,6 @@ table {
 
 table th,
 table td {
- 
   padding: 10px;
   text-align: center;
 }
@@ -313,27 +309,23 @@ a:hover {
   nav ul li {
     margin: 0 15px;
   }
-
-
 }
 
 .sub-content {
-  margin-left: 40px; 
+  margin-left: 40px;
 }
 
 @media screen and (max-width: 768px) {
   .sub-content {
-    margin-left: 5px; /
+    margin-left: 5px;
   }
 
-
   .sub-sub-content {
-  margin-left: 80px; 
+    margin-left: 80px;
   }
 
-
   .sub-sub-content {
-    margin-left: 5px; /
+    margin-left: 5px;
   }
   .web-layout {
     display: flex;
@@ -354,7 +346,8 @@ a:hover {
     margin-bottom: 0px;
   }
 
-  .banner-group1, .banner-group2 {
+  .banner-group1,
+  .banner-group2 {
     display: flex;
     flex-direction: column;
     gap: 3px;
@@ -362,13 +355,12 @@ a:hover {
 
   .banner-group1 {
     grid-column: 1; /* Nhóm 1 nằm ở cột 1 */
-    gap: 6px
+    gap: 6px;
   }
 
   .banner-group2 {
     grid-column: 2; /* Nhóm 2 nằm ở cột 2 */
-    gap: none
-
+    gap: none;
   }
 
   .banner-group2 img {
@@ -376,14 +368,10 @@ a:hover {
   }
 
   .banner-group2 a {
-   
     display: flex;
     justify-content: center;
   }
- 
-  }
-
-
+}
 
 /* yotei */
 
@@ -393,15 +381,15 @@ a:hover {
   font-size: 16px;
 }
 
-
 .month-header {
   font-size: 150%;
   text-align: center;
   padding: 10px 0;
 }
 
-
-.day-header, .weekday-header, .schedule-header {
+.day-header,
+.weekday-header,
+.schedule-header {
   background-color: #f0f0f0;
   padding: 10px;
   text-align: center;
@@ -409,8 +397,8 @@ a:hover {
   color: #000;
 }
 
-
-.day, .weekday {
+.day,
+.weekday {
   padding: 10px;
   text-align: center;
   font-weight: bold;
@@ -424,15 +412,12 @@ a:hover {
   padding: 10px;
 }
 
-
 .highlighted {
-  background-color: #ffd7d7!important;
-
+  background-color: #ffd7d7 !important;
 }
 
-
 .schedule a {
-  color: #0000FF;
+  color: #0000ff;
   text-decoration: none;
 }
 
@@ -441,12 +426,11 @@ a:hover {
 }
 /* ---------------- */
 
-
 /* shinkokukaitoha */
 
 blockquote {
-  width: 95%; 
-  margin-left: 3%; 
+  width: 95%;
+  margin-left: 3%;
 }
 
 .subheading {
@@ -458,25 +442,22 @@ blockquote {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
-  max-width: 300px; 
- 
- 
+  max-width: 300px;
 }
 
 /* ---------------- */
 
 /* toppage */
 .welcome-title {
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: bold;
   text-decoration: underline;
-  color: #0000A0;
+  color: #0000a0;
   font-style: italic !important;
-  text-align: center; 
+  text-align: center;
 }
-
 
 .activities {
   list-style-type: none;
@@ -487,6 +468,5 @@ blockquote {
   margin: 8px 0;
   margin-bottom: 20px;
 }
-
 
 /* ---------------- */
